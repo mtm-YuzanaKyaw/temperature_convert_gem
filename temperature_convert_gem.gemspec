@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "To convert temperature C to F"
   spec.description = "This gem change Celsius temperature to Farenheit temperature"
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/mtm-YuzanaKyaw/temperature_convert_gem.git"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
