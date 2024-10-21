@@ -5,7 +5,7 @@ require_relative "lib/temperature_convert_gem/version"
 Gem::Specification.new do |spec|
   spec.name = "temperature_convert_gem"
   spec.version = TemperatureConvertGem::VERSION
-  spec.authors = ["Yuzana Kyaw"]
+  spec.authors = ["yuzanakyaw26"]
   spec.email = ["mtm.yuzanakyaw@gmail.com"]
 
   spec.summary = "To convert temperature C to F"
