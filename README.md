@@ -1,15 +1,16 @@
 # TemperatureConvertGem
 
-TODO: Delete this and the text below, and describe your gem
-
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/temperature_convert_gem`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
 
-Install the gem and add to the application's Gemfile by executing:
+Add this line to your application's Gemfile:
 
+```bash
+gem 'temperature_convert_gem'
+```
+And then execute:
 ```bash
 bundle add temperature_convert_gem
 ```
@@ -22,8 +23,18 @@ gem install temperature_convert_gem
 
 ## Usage
 
-User can convert the different temperature unit
-
+For Temperature in degrees Fahrenheit to Celsius
+```bash
+TemperatureConvertGem.degreeFtoC
+```
+For Temperature in degrees Fahrenheit to Celsius
+```bash
+TemperatureConvertGem.degreeCtoF
+```
+For Temperature in degrees Fahrenheit to Celsius
+```bash
+TemperatureConvertGem.degreeCtoKelvin
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
