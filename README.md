@@ -25,15 +25,15 @@ gem install temperature_convert_gem
 
 For Temperature in degrees Fahrenheit to Celsius
 ```bash
-TemperatureConvertGem.degreeFtoC
+TemperatureConvertGem.degreeFtoC(value)
 ```
-For Temperature in degrees Fahrenheit to Celsius
+For Temperature in degrees Celsius to Fahrenheit
 ```bash
-TemperatureConvertGem.degreeCtoF
+TemperatureConvertGem.degreeCtoF(value)
 ```
-For Temperature in degrees Fahrenheit to Celsius
+For Temperature in degrees Celsius to Kelvin
 ```bash
-TemperatureConvertGem.degreeCtoKelvin
+TemperatureConvertGem.degreeCtoKelvin(value)
 ```
 ## Development
 
